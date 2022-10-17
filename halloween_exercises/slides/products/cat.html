@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Halloween</title>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/product.css">
+    <link rel="shortcut icon" href= "../../images/favicon.ico">
+</head>
+
+<body>
+	<header>
+		<img src="../../images/pumpkin.gif" alt="pumpkin" usemap="#home">
+        <map name="home">
+            <area href="/halloween_exercises/index.html" alt="Home Page" title ="pumpkin" shape="circle" coords="0,0,85">
+        </map>
+		<h1>The Halloween Store</h1>
+		<h2>For the little Goblin in all of us!	</h2>
+	</header>
+
+	<nav id = "nav">
+		<ul>
+			<li><a class="current" href ="/halloween_exercises/index.html" tabindex="0" >Home</a></li>
+			<li><a href = "products/product_list.html"> Product List</a></li>
+			<li><a href = "personal.html" > Personal</a></li>
+			<li><div class="dropdown">
+						<button class="dropbtn">Decorating Ideas</button>
+							<div class="dropdown-content">
+							<a href="outdoor.html">Outdoor</a>
+							<a href="indoor.html">Indoor</a>
+							<a href="table.html">Table</a>
+							<a href="treats.html">Treats</a>
+							</div>	
+					</div>
+				
+			</li>
+			<li><a href = "email.html"> Join Email </a></li>
+		</ul>
+	</nav>     
+
+        <aside id = "right">
+            <h5>Customers who bought this product also bought:</h5>
+            <ul>
+                <li><figure>
+                    <img class="sidepic" src="flying_bats.jpg" alt = "flying bats">
+                    <figcaption><a href = "flying_bats.jpg">Flying bats</a></figcaption>
+                </figure></li>
+                <li><figure><img class="sidepic" src="rat1.jpg" alt = "Ugly rat">
+                    <figcaption><a href = "rat1.jpg">16" Ugly rat</a></figcaption>
+                </figure></li>
+                <li><figure><img class="sidepic" src="strobe1.jpg" alt = "mini strobe light">
+                    <figcaption><a href = "strobe1.jpg">Mini strobe light</a></figcaption>
+                </figure></li>
+            </ul>
+        </aside>
+
+
+		<aside id="sidebar">
+				<ul class="sidebar">
+					<li><a href ="props.html">Props</a></li>
+					<li><a href ="costumes.html">Costumes</a></li>
+					<li><a href ="special_effects.html">Special FX</a></li>
+					<li><a href ="masks.html">Masks</a></li>
+				</ul>
+		</aside>
+
+        <h1> 20" Deranged Cat</h1>
+        <img src = "../../images/cat1.jpg" id="image">
+        <p>This cat provide its own light and is perfect for a backyard haunting.<br><br>
+        <b>Price: </b>19.99</p>   
+</body>
+
+<footer>
+	<p>&copy; 2018 Ben Murach</p>
+</footer>
+</html>

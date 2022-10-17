@@ -1,0 +1,199 @@
+html{
+    font-family: sans-serif;
+    margin: 1em;
+}
+
+header img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+html{background-image: url('/halloween_exercises/images/bats.gif');}
+
+
+body{font-family: Helvetica, sans-serif;
+	width: 800px;
+	margin: 1em auto;
+	border: 1px solid black;
+	box-shadow: 2px 10px 10px 10px black;
+	background: white;
+}
+
+body p{
+	margin-left: 180px;
+	margin-right: 150px;
+	padding: 0 1em;
+}
+header{
+    border-bottom: 3px solid black;
+	padding: 1em;
+    background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+}
+body>section{
+    float: right;
+    width: 70%;
+}
+header h1{
+    font-size: 270%;
+    text-indent: em;
+}
+header h2{
+    text-indent: 10px;
+}
+h3{
+    font-size: 150%;
+}
+aside ul{
+	list-style-type: none;
+}
+#sidebar{
+    float: left;
+    width: 20%;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+#sidebar ul li{
+	margin-bottom: 0.5em;
+	border: 3px solid black;
+}
+
+#sidebar ul li a {
+	display:block ;
+	text-decoration: none;
+	padding: 0.25em 0.5em;
+	color: black;
+	font-size: 100%;
+	background-color: orange;
+	font-weight: bold;
+}
+#sidebar ul li a:hover, #nav_vertical ul li a:focus{background-color:gray;}
+
+.dropbtn{
+	font-size: 100%;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: black;
+	padding: 8px;
+	width: 160px;
+}
+
+.dropbtn:hover{
+	background-color: gray;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: black;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: gray;}
+
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul li{
+	float: left;
+}
+
+#nav ul li a{
+	display: block;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding: 0.5em 0;
+	width: 160px;
+	text-align: center;
+	font-weight: 200;
+}
+
+#nav ul li a:hover, #nav_bar ul li a:focus {
+	background-color: gray;
+}
+
+#nav ul li:hover > ul{display:block;}
+
+#nav > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+body img{
+    float: left;
+    padding-bottom: 1em;
+}
+
+b{
+    font-weight: bold;
+}
+a:link{ 
+	color: orange;
+	font-weight: bold;
+	}
+
+#image{
+    float: left;
+    vertical-align: middle;
+    width: 180px;
+    height: auto;
+    padding-left: 0.75em;
+}
+
+#right{
+	float:right;
+	width: 180px;
+	height: auto;
+	background-color: lightgray;
+
+}
+
+#right h5{
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+#right ul li{
+	padding-bottom: 0.5em;
+}
+
+a:hover, a:focus{color: green;}
+
+.sidepic{
+    width: 50px;
+}
+body h1, h2, h3, p, ul {padding:0 1em;}
+
+body>h1{
+	font-size: 140%;
+	padding-top: 0.25em;
+	padding-left: 7.75em;
+}
+
+body p{
+	font-size: 100%;
+	font-weight: 100;
+	margin-left: 352px;
+	margin-right: 180px;
+	padding: 0 2em;
+	}
+
+footer{
+    text-align:center;
+    border-top: 3px solid black;
+    padding: 1em;
+    clear:both;
+    background: linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
+}
+
